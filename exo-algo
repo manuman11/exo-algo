@@ -2,7 +2,6 @@ exo-1
 A ← 1          (A=1)
 B ← A + 3      (B=4)
 A ← 3          (A=3)
-Fin
 (valeur de A=3)
 
 
@@ -31,7 +30,7 @@ exo-5
 A ← 5          (A=5)
 B ← 2          (B=2)
 A ← B          (A=B=2)
-B ← A          (B=A=2) les valeurs sont échangées A prend la valeur B
+B ← A          (B=A=2) les valeurs sont échangées A prend la valeur de B
 
 
 exo-6 (écrire un algorithme
@@ -52,7 +51,7 @@ B= "papyrus"
 C= "fenetre"
 D=A
 E=B
-F=C
+F=C          (D,E,F etant des variables temporaires)
 B=D
 C=E
 A=F
